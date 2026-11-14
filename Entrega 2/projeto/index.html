@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu portfólio de desenvolvimento</title>
+    <title>Meu portfólio</title>
     <meta
       name="description"
       content="Conheça meu perfil, meus interesses em desenvolvimento back-end e minha jornada de aprendizado em tecnologia."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.ico" />
   </head>
 
   <body>
@@ -18,7 +19,7 @@
       <div class="container barra-navegacao">
         <a class="marca" href="#inicio" aria-label="Meu portfólio — início">
           <span class="marca-simbolo" aria-hidden="true">&lt;/&gt;</span>
-          Meu portfólio<span class="marca-ponto" aria-hidden="true">.</span>
+          Meu portfólio
         </a>
 
         <nav aria-label="Navegação principal">
@@ -32,12 +33,13 @@
     </header>
 
     <main id="conteudo" tabindex="-1">
-      <!-- Área de destaque: apresenta o objetivo principal do portfólio. -->
       <section class="destaque" aria-labelledby="titulo-principal">
         <div class="container destaque-conteudo">
           <div>
             <p class="etiqueta">Tecnologia, prática e aprendizado</p>
-            <h1 id="titulo-principal">Meu portfólio de desenvolvimento<span>.</span></h1>
+            <h1 id="titulo-principal">
+              Meu portfólio de desenvolvimento<span>.</span>
+            </h1>
             <p class="destaque-subtitulo">
               Desenvolvedor back-end e estudante de tecnologia
             </p>
@@ -45,7 +47,9 @@
               Um espaço para apresentar meu perfil, compartilhar meus interesses
               e explorar como a tecnologia pode resolver problemas do dia a dia.
             </p>
-            <a class="botao" href="#interesses">Conheça meus interesses <span aria-hidden="true">↗</span></a>
+            <a class="botao" href="#interesses"
+              >Conheça meus interesses <span aria-hidden="true">↗</span></a
+            >
           </div>
 
           <figure class="ilustracao">
@@ -55,12 +59,18 @@
               width="640"
               height="360"
             />
-            <figcaption>Uma ideia de cada vez. Uma linha de código por vez.</figcaption>
+            <figcaption>
+              Uma ideia de cada vez. Uma linha de código por vez.
+            </figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="container secao sobre" id="sobre" aria-labelledby="titulo-sobre">
+      <section
+        class="container secao sobre"
+        id="sobre"
+        aria-labelledby="titulo-sobre"
+      >
         <div>
           <p class="etiqueta">01 / Apresentação</p>
           <h2 id="titulo-sobre">Sobre mim e o projeto</h2>
@@ -68,9 +78,9 @@
 
         <div class="sobre-texto">
           <p>
-            Sou desenvolvedor back-end e estudante de tecnologia. Tenho interesse
-            em entender como os sistemas funcionam e em criar soluções que ajudem
-            as pessoas em suas atividades.
+            Sou desenvolvedor back-end e estudante de tecnologia. Tenho
+            interesse em entender como os sistemas funcionam e em criar soluções
+            que ajudem as pessoas em suas atividades.
           </p>
 
           <p>
@@ -82,10 +92,16 @@
         </div>
       </section>
 
-      <section class="container secao" id="interesses" aria-labelledby="titulo-interesses">
+      <section
+        class="container secao"
+        id="interesses"
+        aria-labelledby="titulo-interesses"
+      >
         <p class="etiqueta">02 / O que me move</p>
         <h2 id="titulo-interesses">Meus interesses</h2>
-        <p class="introducao-secao">Três áreas que fazem parte da minha jornada em tecnologia.</p>
+        <p class="introducao-secao">
+          Três áreas que fazem parte da minha jornada em tecnologia.
+        </p>
 
         <!-- O CSS Grid distribui os cartões em colunas no computador. -->
         <ul class="cartoes">
@@ -119,18 +135,26 @@
         </ul>
       </section>
 
-      <section class="container secao" id="estudos" aria-labelledby="titulo-estudos">
+      <section
+        class="container secao"
+        id="estudos"
+        aria-labelledby="titulo-estudos"
+      >
         <div class="material-estudo">
           <div>
             <p class="etiqueta">03 / Continue aprendendo</p>
             <h2 id="titulo-estudos">Material de estudo</h2>
             <p>
               A documentação faz parte do aprendizado. Explore a MDN Web Docs em
-              português para conhecer melhor o HTML, o CSS e outras tecnologias web.
+              português para conhecer melhor o HTML, o CSS e outras tecnologias
+              web.
             </p>
           </div>
 
-          <a class="botao botao-claro" href="https://developer.mozilla.org/pt-BR/">
+          <a
+            class="botao botao-claro"
+            href="https://developer.mozilla.org/pt-BR/"
+          >
             Explorar a MDN <span aria-hidden="true">↗</span>
           </a>
         </div>
