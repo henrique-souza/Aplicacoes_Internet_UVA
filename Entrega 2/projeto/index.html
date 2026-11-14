@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portfólio de desenvolvimento</title>
+    <meta
+      name="description"
+      content="Conheça meu perfil, meus interesses em desenvolvimento back-end e minha jornada de aprendizado em tecnologia."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho" id="inicio">
+      <div class="container barra-navegacao">
+        <a class="marca" href="#inicio" aria-label="Meu portfólio — início">
+          <span class="marca-simbolo" aria-hidden="true">&lt;/&gt;</span>
+          Meu portfólio<span class="marca-ponto" aria-hidden="true">.</span>
+        </a>
+
+        <nav aria-label="Navegação principal">
+          <ul class="menu">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#interesses">Interesses</a></li>
+            <li><a href="#estudos">Estudos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+      <!-- Área de destaque: apresenta o objetivo principal do portfólio. -->
+      <section class="destaque" aria-labelledby="titulo-principal">
+        <div class="container destaque-conteudo">
+          <div>
+            <p class="etiqueta">Tecnologia, prática e aprendizado</p>
+            <h1 id="titulo-principal">Meu portfólio de desenvolvimento<span>.</span></h1>
+            <p class="destaque-subtitulo">
+              Desenvolvedor back-end e estudante de tecnologia
+            </p>
+            <p class="destaque-descricao">
+              Um espaço para apresentar meu perfil, compartilhar meus interesses
+              e explorar como a tecnologia pode resolver problemas do dia a dia.
+            </p>
+            <a class="botao" href="#interesses">Conheça meus interesses <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <figure class="ilustracao">
+            <img
+              src="imagens/desenvolvimento.svg"
+              alt="Ilustração de um computador com símbolos de código na tela"
+              width="640"
+              height="360"
+            />
+            <figcaption>Uma ideia de cada vez. Uma linha de código por vez.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="container secao sobre" id="sobre" aria-labelledby="titulo-sobre">
+        <div>
+          <p class="etiqueta">01 / Apresentação</p>
+          <h2 id="titulo-sobre">Sobre mim e o projeto</h2>
+        </div>
+
+        <div class="sobre-texto">
+          <p>
+            Sou desenvolvedor back-end e estudante de tecnologia. Tenho interesse
+            em entender como os sistemas funcionam e em criar soluções que ajudem
+            as pessoas em suas atividades.
+          </p>
+
+          <p>
+            Este portfólio começou como minha primeira página da disciplina,
+            criada com HTML5. Nesta segunda entrega, o CSS3 dá forma ao projeto
+            com cores, tipografia, espaçamentos e um layout que se adapta a
+            diferentes telas.
+          </p>
+        </div>
+      </section>
+
+      <section class="container secao" id="interesses" aria-labelledby="titulo-interesses">
+        <p class="etiqueta">02 / O que me move</p>
+        <h2 id="titulo-interesses">Meus interesses</h2>
+        <p class="introducao-secao">Três áreas que fazem parte da minha jornada em tecnologia.</p>
+
+        <!-- O CSS Grid distribui os cartões em colunas no computador. -->
+        <ul class="cartoes">
+          <li class="cartao">
+            <span class="cartao-icone" aria-hidden="true">&lt;/&gt;</span>
+            <h3>Desenvolvimento back-end</h3>
+            <p>
+              Entender a lógica por trás das aplicações e criar funcionalidades
+              que conectam pessoas, serviços e informações.
+            </p>
+            <span class="cartao-tema">Lógica e aplicações</span>
+          </li>
+          <li class="cartao">
+            <span class="cartao-icone" aria-hidden="true">{ }</span>
+            <h3>Bancos de dados</h3>
+            <p>
+              Aprender a organizar, armazenar e consultar dados para que a
+              informação esteja disponível quando for necessária.
+            </p>
+            <span class="cartao-tema">Dados e organização</span>
+          </li>
+          <li class="cartao">
+            <span class="cartao-icone" aria-hidden="true">#</span>
+            <h3>Fundamentos do desenvolvimento web</h3>
+            <p>
+              Explorar HTML e CSS para construir páginas bem estruturadas,
+              acessíveis e agradáveis de usar em diferentes dispositivos.
+            </p>
+            <span class="cartao-tema">Estrutura e estilo</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container secao" id="estudos" aria-labelledby="titulo-estudos">
+        <div class="material-estudo">
+          <div>
+            <p class="etiqueta">03 / Continue aprendendo</p>
+            <h2 id="titulo-estudos">Material de estudo</h2>
+            <p>
+              A documentação faz parte do aprendizado. Explore a MDN Web Docs em
+              português para conhecer melhor o HTML, o CSS e outras tecnologias web.
+            </p>
+          </div>
+
+          <a class="botao botao-claro" href="https://developer.mozilla.org/pt-BR/">
+            Explorar a MDN <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape-conteudo">
+        <p>Projeto acadêmico · Aplicações para Internet · Entrega 2</p>
+        <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
