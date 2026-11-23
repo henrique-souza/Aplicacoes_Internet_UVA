@@ -7,7 +7,8 @@ const formulario = document.querySelector("#form-contato");
 const nome = document.querySelector("#nome");
 const mensagem = document.querySelector("#mensagem");
 const contador = document.querySelector("#contador");
-const retorno = document.querySelector("#retorno");0
+const retorno = document.querySelector("#retorno");
+0;
 function atualizarContador() {
   contador.textContent = `${mensagem.value.length} de ${mensagem.maxLength} caracteres`;
 }
@@ -37,7 +38,7 @@ formulario.addEventListener("submit", (evento) => {
   textoAviso.textContent =
     "Seu formulário foi preenchido corretamente e validado neste navegador.";
 
-    fecharAviso.textContent = "Voltar ao formulário";
+  fecharAviso.textContent = "Voltar ao formulário";
 
   aviso.showModal();
 });

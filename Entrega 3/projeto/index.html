@@ -14,12 +14,24 @@
   </head>
 
   <body>
-    <dialog id="aviso" aria-labelledby="titulo-aviso" aria-describedby="texto-aviso">
+    <dialog
+      id="aviso"
+      aria-labelledby="titulo-aviso"
+      aria-describedby="texto-aviso"
+    >
       <div class="aviso-conteudo">
         <h2 id="titulo-aviso">Boas-vindas ao meu portfólio!</h2>
-        <p id="texto-aviso">Conheça meus interesses em desenvolvimento back-end e o que estou estudando.</p>
+        <p id="texto-aviso">
+          Conheça meus interesses em desenvolvimento back-end e o que estou
+          estudando.
+        </p>
         <form method="dialog">
-          <button id="fechar-aviso" class="botao botao-claro" type="submit" autofocus>
+          <button
+            id="fechar-aviso"
+            class="botao botao-claro"
+            type="submit"
+            autofocus
+          >
             Entrar no portfólio
           </button>
         </form>
@@ -101,7 +113,8 @@
             Este portfólio começou como minha primeira página da disciplina,
             criada com HTML5. Na segunda entrega, usei CSS3 para adaptar o
             layout a diferentes telas. Nesta terceira entrega, usei JavaScript
-            para validar o formulário de contato e contar os caracteres da mensagem.
+            para validar o formulário de contato e contar os caracteres da
+            mensagem.
           </p>
         </div>
       </section>
@@ -114,7 +127,8 @@
         <p class="etiqueta">02 / O que me move</p>
         <h2 id="titulo-interesses">Meus interesses</h2>
         <p class="introducao-secao">
-          Abra um cartão para conhecer um projeto meu e explorar o código no GitHub.
+          Abra um cartão para conhecer um projeto meu e explorar o código no
+          GitHub.
         </p>
 
         <!-- O CSS Grid distribui os cartões em colunas no computador. -->
@@ -123,15 +137,32 @@
             <details>
               <summary>
                 <hgroup>
-                  <h3><span class="cartao-icone" aria-hidden="true">&lt;/&gt;</span>Desenvolvimento back-end</h3>
-                  <p>Entender a lógica por trás das aplicações e criar funcionalidades que conectam pessoas, serviços e informações.</p>
+                  <h3>
+                    <span class="cartao-icone" aria-hidden="true"
+                      >&lt;/&gt;</span
+                    >Desenvolvimento back-end
+                  </h3>
+                  <p>
+                    Entender a lógica por trás das aplicações e criar
+                    funcionalidades que conectam pessoas, serviços e
+                    informações.
+                  </p>
                   <p class="cartao-tema">ContosoPizza</p>
                 </hgroup>
               </summary>
               <div class="cartao-projeto">
-                <p>Nesta API em C# com ASP.NET Core, é possível cadastrar, consultar, atualizar e excluir pizzas. Quando uma pizza não existe, a consulta por ID devolve o código HTTP 404.</p>
-                <a href="https://github.com/henrique-souza/ContosoPizza">ContosoPizza no GitHub</a>
-                <a href="https://github.com/henrique-souza/ContosoPizza/blob/master/Controllers/PizzaController.cs">Ver o controlador de pizzas</a>
+                <p>
+                  Nesta API em C# com ASP.NET Core, é possível cadastrar,
+                  consultar, atualizar e excluir pizzas. Quando uma pizza não
+                  existe, a consulta por ID devolve o código HTTP 404.
+                </p>
+                <a href="https://github.com/henrique-souza/ContosoPizza"
+                  >ContosoPizza no GitHub</a
+                >
+                <a
+                  href="https://github.com/henrique-souza/ContosoPizza/blob/master/Controllers/PizzaController.cs"
+                  >Ver o controlador de pizzas</a
+                >
               </div>
             </details>
           </li>
@@ -139,15 +170,30 @@
             <details>
               <summary>
                 <hgroup>
-                  <h3><span class="cartao-icone" aria-hidden="true">{ }</span>Bancos de dados</h3>
-                  <p>Aprender a organizar, armazenar e consultar dados para que a informação esteja disponível quando for necessária.</p>
+                  <h3>
+                    <span class="cartao-icone" aria-hidden="true">{ }</span
+                    >Bancos de dados
+                  </h3>
+                  <p>
+                    Aprender a organizar, armazenar e consultar dados para que a
+                    informação esteja disponível quando for necessária.
+                  </p>
                   <p class="cartao-tema">Crypto Wallet</p>
                 </hgroup>
               </summary>
               <div class="cartao-projeto">
-                <p>Neste cadastro em Ruby on Rails, cada criptomoeda ocupa uma linha da tabela <code>coins</code> no SQLite. A tabela guarda a descrição, a sigla e o endereço da imagem de cada moeda.</p>
-                <a href="https://github.com/henrique-souza/crypto_wallet">Crypto Wallet no GitHub</a>
-                <a href="https://github.com/henrique-souza/crypto_wallet/blob/master/db/schema.rb">Ver a estrutura da tabela</a>
+                <p>
+                  Neste cadastro em Ruby on Rails, cada criptomoeda ocupa uma
+                  linha da tabela <code>coins</code> no SQLite. A tabela guarda
+                  a descrição, a sigla e o endereço da imagem de cada moeda.
+                </p>
+                <a href="https://github.com/henrique-souza/crypto_wallet"
+                  >Crypto Wallet no GitHub</a
+                >
+                <a
+                  href="https://github.com/henrique-souza/crypto_wallet/blob/master/db/schema.rb"
+                  >Ver a estrutura da tabela</a
+                >
               </div>
             </details>
           </li>
@@ -155,15 +201,30 @@
             <details>
               <summary>
                 <hgroup>
-                  <h3><span class="cartao-icone" aria-hidden="true">#</span>Fundamentos do desenvolvimento web</h3>
-                  <p>Explorar HTML e CSS para construir páginas bem estruturadas, acessíveis e agradáveis de usar em diferentes dispositivos.</p>
+                  <h3>
+                    <span class="cartao-icone" aria-hidden="true">#</span
+                    >Fundamentos do desenvolvimento web
+                  </h3>
+                  <p>
+                    Explorar HTML e CSS para construir páginas bem estruturadas,
+                    acessíveis e agradáveis de usar em diferentes dispositivos.
+                  </p>
                   <p class="cartao-tema">Jogo da velha</p>
                 </hgroup>
               </summary>
               <div class="cartao-projeto">
-                <p>Neste jogo em React, cada clique marca uma casa com X ou O. O jogo identifica quem venceu e guarda o histórico para que os jogadores possam voltar a uma jogada anterior.</p>
-                <a href="https://github.com/henrique-souza/tic-tac-toe">Jogo da velha no GitHub</a>
-                <a href="https://github.com/henrique-souza/tic-tac-toe/blob/master/src/index.js">Ver a lógica das jogadas</a>
+                <p>
+                  Neste jogo em React, cada clique marca uma casa com X ou O. O
+                  jogo identifica quem venceu e guarda o histórico para que os
+                  jogadores possam voltar a uma jogada anterior.
+                </p>
+                <a href="https://github.com/henrique-souza/tic-tac-toe"
+                  >Jogo da velha no GitHub</a
+                >
+                <a
+                  href="https://github.com/henrique-souza/tic-tac-toe/blob/master/src/index.js"
+                  >Ver a lógica das jogadas</a
+                >
               </div>
             </details>
           </li>
@@ -203,12 +264,24 @@
         <form id="form-contato" method="post">
           <div>
             <label for="nome">Nome</label>
-            <input id="nome" name="nome" type="text" autocomplete="name" required />
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              autocomplete="name"
+              required
+            />
           </div>
 
           <div>
             <label for="email">E-mail</label>
-            <input id="email" name="email" type="email" autocomplete="email" required />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
           </div>
 
           <div>
