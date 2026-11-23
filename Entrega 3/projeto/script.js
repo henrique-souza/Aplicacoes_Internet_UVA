@@ -8,7 +8,6 @@ const nome = document.querySelector("#nome");
 const mensagem = document.querySelector("#mensagem");
 const contador = document.querySelector("#contador");
 const retorno = document.querySelector("#retorno");
-0;
 function atualizarContador() {
   contador.textContent = `${mensagem.value.length} de ${mensagem.maxLength} caracteres`;
 }
