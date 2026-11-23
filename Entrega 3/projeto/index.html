@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portfólio</title>
+    <meta
+      name="description"
+      content="Conheça meu perfil, meus interesses em desenvolvimento back-end e minha jornada de aprendizado em tecnologia."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.ico" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <dialog id="aviso" aria-labelledby="titulo-aviso" aria-describedby="texto-aviso">
+      <div class="aviso-conteudo">
+        <h2 id="titulo-aviso">Boas-vindas ao meu portfólio!</h2>
+        <p id="texto-aviso">Conheça meus interesses em desenvolvimento back-end e o que estou estudando.</p>
+        <form method="dialog">
+          <button id="fechar-aviso" class="botao botao-claro" type="submit" autofocus>
+            Entrar no portfólio
+          </button>
+        </form>
+      </div>
+    </dialog>
+
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho" id="inicio">
+      <div class="container barra-navegacao">
+        <a class="marca" href="#inicio" aria-label="Meu portfólio — início">
+          <span class="marca-simbolo" aria-hidden="true">&lt;/&gt;</span>
+          Meu portfólio
+        </a>
+
+        <nav aria-label="Navegação principal">
+          <ul class="menu">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#interesses">Interesses</a></li>
+            <li><a href="#estudos">Estudos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" tabindex="-1">
+      <section class="destaque" aria-labelledby="titulo-principal">
+        <div class="container destaque-conteudo">
+          <div>
+            <p class="etiqueta">Tecnologia, prática e aprendizado</p>
+            <h1 id="titulo-principal">
+              Meu portfólio de desenvolvimento<span>.</span>
+            </h1>
+            <p class="destaque-subtitulo">
+              Desenvolvedor back-end e estudante de tecnologia
+            </p>
+            <p class="destaque-descricao">
+              Um espaço para apresentar meu perfil, compartilhar meus interesses
+              e explorar como a tecnologia pode resolver problemas do dia a dia.
+            </p>
+            <a class="botao" href="#interesses"
+              >Conheça meus interesses <span aria-hidden="true">↗</span></a
+            >
+          </div>
+
+          <figure class="ilustracao">
+            <img
+              src="imagens/desenvolvimento.svg"
+              alt="Ilustração de um computador com símbolos de código na tela"
+              width="640"
+              height="360"
+            />
+            <figcaption>
+              Uma ideia de cada vez. Uma linha de código por vez.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section
+        class="container secao sobre"
+        id="sobre"
+        aria-labelledby="titulo-sobre"
+      >
+        <div>
+          <p class="etiqueta">01 / Apresentação</p>
+          <h2 id="titulo-sobre">Sobre mim e o projeto</h2>
+        </div>
+
+        <div class="sobre-texto">
+          <p>
+            Sou desenvolvedor back-end e estudante de tecnologia. Tenho
+            interesse em entender como os sistemas funcionam e em criar soluções
+            que ajudem as pessoas em suas atividades.
+          </p>
+
+          <p>
+            Este portfólio começou como minha primeira página da disciplina,
+            criada com HTML5. Na segunda entrega, usei CSS3 para adaptar o
+            layout a diferentes telas. Nesta terceira entrega, usei JavaScript
+            para validar o formulário de contato e contar os caracteres da mensagem.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="container secao"
+        id="interesses"
+        aria-labelledby="titulo-interesses"
+      >
+        <p class="etiqueta">02 / O que me move</p>
+        <h2 id="titulo-interesses">Meus interesses</h2>
+        <p class="introducao-secao">
+          Abra um cartão para conhecer um projeto meu e explorar o código no GitHub.
+        </p>
+
+        <!-- O CSS Grid distribui os cartões em colunas no computador. -->
+        <ul class="cartoes">
+          <li class="cartao">
+            <details>
+              <summary>
+                <hgroup>
+                  <h3><span class="cartao-icone" aria-hidden="true">&lt;/&gt;</span>Desenvolvimento back-end</h3>
+                  <p>Entender a lógica por trás das aplicações e criar funcionalidades que conectam pessoas, serviços e informações.</p>
+                  <p class="cartao-tema">ContosoPizza</p>
+                </hgroup>
+              </summary>
+              <div class="cartao-projeto">
+                <p>Nesta API em C# com ASP.NET Core, é possível cadastrar, consultar, atualizar e excluir pizzas. Quando uma pizza não existe, a consulta por ID devolve o código HTTP 404.</p>
+                <a href="https://github.com/henrique-souza/ContosoPizza">ContosoPizza no GitHub</a>
+                <a href="https://github.com/henrique-souza/ContosoPizza/blob/master/Controllers/PizzaController.cs">Ver o controlador de pizzas</a>
+              </div>
+            </details>
+          </li>
+          <li class="cartao">
+            <details>
+              <summary>
+                <hgroup>
+                  <h3><span class="cartao-icone" aria-hidden="true">{ }</span>Bancos de dados</h3>
+                  <p>Aprender a organizar, armazenar e consultar dados para que a informação esteja disponível quando for necessária.</p>
+                  <p class="cartao-tema">Crypto Wallet</p>
+                </hgroup>
+              </summary>
+              <div class="cartao-projeto">
+                <p>Neste cadastro em Ruby on Rails, cada criptomoeda ocupa uma linha da tabela <code>coins</code> no SQLite. A tabela guarda a descrição, a sigla e o endereço da imagem de cada moeda.</p>
+                <a href="https://github.com/henrique-souza/crypto_wallet">Crypto Wallet no GitHub</a>
+                <a href="https://github.com/henrique-souza/crypto_wallet/blob/master/db/schema.rb">Ver a estrutura da tabela</a>
+              </div>
+            </details>
+          </li>
+          <li class="cartao">
+            <details>
+              <summary>
+                <hgroup>
+                  <h3><span class="cartao-icone" aria-hidden="true">#</span>Fundamentos do desenvolvimento web</h3>
+                  <p>Explorar HTML e CSS para construir páginas bem estruturadas, acessíveis e agradáveis de usar em diferentes dispositivos.</p>
+                  <p class="cartao-tema">Jogo da velha</p>
+                </hgroup>
+              </summary>
+              <div class="cartao-projeto">
+                <p>Neste jogo em React, cada clique marca uma casa com X ou O. O jogo identifica quem venceu e guarda o histórico para que os jogadores possam voltar a uma jogada anterior.</p>
+                <a href="https://github.com/henrique-souza/tic-tac-toe">Jogo da velha no GitHub</a>
+                <a href="https://github.com/henrique-souza/tic-tac-toe/blob/master/src/index.js">Ver a lógica das jogadas</a>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </section>
+
+      <section
+        class="container secao"
+        id="estudos"
+        aria-labelledby="titulo-estudos"
+      >
+        <div class="material-estudo">
+          <div>
+            <p class="etiqueta">03 / Continue aprendendo</p>
+            <h2 id="titulo-estudos">Material de estudo</h2>
+            <p>
+              A documentação faz parte do aprendizado. Explore a MDN Web Docs em
+              português para conhecer melhor o HTML, o CSS e outras tecnologias
+              web.
+            </p>
+          </div>
+
+          <a
+            class="botao botao-claro"
+            href="https://developer.mozilla.org/pt-BR/"
+          >
+            Explorar a MDN <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+      <section
+        class="container secao"
+        id="contato"
+        aria-labelledby="titulo-contato"
+      >
+        <h2 id="titulo-contato">Entre em contato</h2>
+        <form id="form-contato" method="post">
+          <div>
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required />
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              maxlength="500"
+              aria-describedby="contador"
+              required
+            ></textarea>
+            <p id="contador"></p>
+          </div>
+
+          <button type="submit" class="botao">Enviar</button>
+          <p id="retorno" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container rodape-conteudo">
+        <p>Projeto acadêmico · Aplicações para Internet · Entrega 3</p>
+        <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>

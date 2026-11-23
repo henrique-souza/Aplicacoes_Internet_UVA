@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+    <title>Computador com símbolos de código</title>
+    <rect width="640" height="360" rx="20" fill="#eaf2f8" />
+    <rect x="120" y="45" width="400" height="245" rx="16" fill="#17324d" />
+    <rect x="140" y="65" width="360" height="195" rx="6" fill="#ffffff" />
+    <path d="M265 120 L220 160 L265 200 M375 120 L420 160 L375 200 M340 110 L300 210"
+        fill="none" stroke="#2374ab" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="290" y="290" width="60" height="25" fill="#17324d" />
+    <rect x="240" y="315" width="160" height="15" rx="7" fill="#17324d" />
+</svg>
